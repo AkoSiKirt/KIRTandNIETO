@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Station Report</title>
+    <!-- Updated Font Awesome link -->
+    <script src="https://kit.fontawesome.com/0dda5466c1.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #005f72;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            display: flex;
+            align-items: center; /* Aligns icon and text vertically */
+            justify-content: space-between; /* Makes space between icon/title and nav */
+            border-bottom: 4px solid #003b44;
+        }
+
+        header i {
+            margin-right: 10px; /* Space between icon and text */
+            font-size: 30px; /* Adjust size of the icon */
+        }
+
+        nav {
+            display: flex; /* Use flex to align the links in a row */
+            align-items: center; /* Align the links vertically */
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+            max-width: 800px;
+            margin: 40px auto 0; /* Add margin-top to create space above the content */
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #005f72;
+        }
+
+        .content h1 {
+            color: #005f72;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .tips-section {
+            background-color: antiquewhite;
+            padding: 30px;
+            max-width: 1500px;
+            margin: 40px auto; /* 'auto' centers the section horizontally */
+            border: 4px solid #005f72;
+            border-radius: 30px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .tips-section h2 {
+            color: #005f72;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .tips-section ul {
+            font-size: 18px;
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+
+        footer {
+            background-color: #003b44;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .infom {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <i class="fa-solid fa-building-shield"></i> POLICE STATION ONLINE REPORT
+        </div>
+        <nav>
+            <a href="/">HOME</a> | 
+            <a href="/about/">ABOUT US</a> | 
+            <a href="/contact/">CONTACT US</a> | 
+            <a href="/submit_report/">REPORT</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>WELCOME TO THE POLICE REPORT SYSTEM</h1>
+        <p>Your safety is our priority. Please use this platform to report any incidents or crimes that require immediate attention from the police. 
+            Our dedicated officers will take action as quickly as possible to ensure justice and security for all.</p>
+        <p>a comprehensive platform designed to streamline the process of recording, managing, and tracking incidents, crimes, and investigations. 
+            This system ensures that law enforcement agencies can efficiently document key details such as case information, evidence, suspect and victim data, 
+            and updates on ongoing investigations. By centralizing and securing all reports, the system allows for easy access, improved communication, and 
+            enhanced collaboration among officers and departments. It also supports reporting and analytical tools to identify trends, improve public safety, 
+            and ensure accountability and transparency in law enforcement operations.</p>
+        <p class="infom">IF YOU NEED ASSISTANCE, PLEASE DON'T HESITATE TO CONTACT US OR SUBMIT A REPORT.</p>
+    </div>
+
+    <div class="tips-section">
+        <h2>Car Accidents: What to Do</h2>
+        <p>If you're involved in a car accident, follow these important tips:</p>
+        <ul>
+            <li><strong>Stop:</strong> Stop your car immediately, but don't block traffic.</li>
+            <li><strong>Call the police:</strong> Request a police officer to come to the scene, especially if there are injuries, severe property damage, or potential crimes.</li>
+            <li><strong>Stay at the scene:</strong> Don't leave until everyone is satisfied with the outcome.</li>
+            <li><strong>Cooperate:</strong> Cooperate with the investigating officers.</li>
+            <li><strong>Note what happened:</strong> Make written notes of all parties involved.</li>
+            <li><strong>Report the accident:</strong> Report the collision to your insurance agent.</li>
+            <li><strong>See a doctor:</strong> If you have any injuries, see your doctor.</li>
+        </ul>
+    </div>
+    <div class="tips-section">
+        <h2>Avoid accidents</h2>
+        <p>To avoid car accidents, you can:</p>
+        <ul>
+            <li><strong>Stop:</strong>Wear your seat belt.</li>
+            <li><strong>Call the police:</strong> Maintain your car regularly.</li>
+            <li><strong>Call the police:</strong> Keep your distance from the car in front of you.</li>
+            <li><strong>Call the police:</strong> Avoid situations that could force you to suddenly use your brakes.</li>
+            <li><strong>Call the police:</strong> Don't get distracted while driving</li>
+        </ul>
+    </div>
+    <div class="tips-section">
+        <h2>Tips for Handling Crimes:</h2>
+        <ul>
+            <p><strong>Stay Calm and Assess the Situation:</strong></p>
+            <li>If you're a witness or victim of a crime, try to remain calm. Avoid taking unnecessary risks or putting yourself in danger.</li>
+
+            <p><strong>Call Law Enforcement:</strong> </p>
+            <li>Contact the police immediately if you witness or are a victim of a crime. Provide detailed information about the situation.</li>
+
+            <p><strong>Do Not Intervene Physically:</strong> </p>
+            <li>Avoid confronting or trying to stop the criminal unless absolutely necessary for your safety. Your safety is the most important thing.</li>
+
+            <p><strong>Preserve Evidence:</strong> </p>
+            <li>If possible, avoid disturbing the crime scene or touching objects that could serve as evidence (e.g., weapons, documents).</li>
+            <li>Take mental notes of the surroundings, the suspect’s appearance, or anything unusual.</li>
+
+            <p><strong>Cooperate with Authorities:</strong> </p>
+            <li>Provide as much information as possible to the police, including descriptions, vehicle details, or anything else that might assist in the investigation.</li>
+
+            <p><strong>Keep a Record of the Incident:</strong> </p>
+            <li>Write down your account of the crime, including any key details you recall. This will be useful during investigations.</li>
+
+            <p><strong>Stay Alert:</strong> </p>
+            <li>Pay attention to your surroundings and trust your instincts. If something feels off, report it.</li>
+
+            <p><strong>Seek Support:</strong></p>
+            <li> If you're affected by the crime, seek support from family, friends, or professionals. Many organizations provide counseling for crime victims.</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2024 Police Station. All rights reserved.
+    </footer>
+</body>
+</html>
